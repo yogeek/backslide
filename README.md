@@ -1,5 +1,6 @@
 # Backslide
 
+Backslide tool for HTML presentation in docker
 https://github.com/sinedied/backslide
 
 ## Workflow
