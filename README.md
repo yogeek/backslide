@@ -31,3 +31,7 @@ $ # Export slides as PDF
 $ docker run -it --rm -v $(pwd):/app -w /app yogeek/baskslide bs pdf
 ```
 
+# Note
+
+If you are using Docker Machine on Mac or Windows, your Docker daemon has only limited access to your OS X or Windows filesystem. Docker Machine tries to auto-share your /Users (OS X) or C:\Users (Windows) directory.
+Basically, you will need to move your site files to somewhere such as c:\Users\sites and launch the container from there.
