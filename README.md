@@ -10,7 +10,7 @@ https://github.com/sinedied/backslide
 $ mkdir app
 $ cd !$
 
-$ docker run -it --rm -v $(pwd):/app -w /app yogeek/baskslide bs init
+$ docker run -it --rm -v $(pwd):/app -w /app yogeek/backslide bs init
 Presentation initialized successfully
 ```
 You can now edit presentation.md on your host...
@@ -18,7 +18,7 @@ You can now edit presentation.md on your host...
 
 ### Start a development server with live reload (on port 4100 in this example)
 ```
-$ docker run -it --rm  -v $(pwd):/app -w /app -p 4100:4100 yogeek/baskslide bs serve
+$ docker run -it --rm  -v $(pwd):/app -w /app -p 4100:4100 yogeek/backslide bs serve
 [Browsersync] Access URLs:
  --------------------------------
     Local: http://localhost:4100
@@ -32,12 +32,12 @@ or http://$(docker-machine ip):4100 if using docker-machine
 
 ### Export slides as HTML
 ```
-$ docker run -it --rm -v $(pwd):/app -w /app yogeek/baskslide bs export
+$ docker run -it --rm -v $(pwd):/app -w /app yogeek/bacskslide bs export
 ```
 
 ### Export slides as PDF
 ```
-$ docker run -it --rm -v $(pwd):/app -w /app yogeek/baskslide bs pdf
+$ docker run -it --rm -v $(pwd):/app -w /app yogeek/backslide bs pdf
 ```
 
 ## Note
